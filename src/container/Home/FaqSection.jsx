@@ -94,14 +94,14 @@ function FaqSection() {
             fully personalized.
           </p>
         </div>
-        <div className="">
+        <div className="mx-[142px]">
           <div className="columns-1 md:columns-2 gap-4 space-y-4">
             {faqs.map((faq, index) => {
               const isOpen = openIndex === index;
               return (
                 <div
                   key={index}
-                  className="bg-white p-[32px] rounded-2xl shadow-md"
+                  className="break-inside-avoid bg-white p-[32px] rounded-2xl shadow-md"
                 >
                   <div className="flex  justify-between   items-start">
                     <h1 className="text-[22px] font-medium text-neutral-800">

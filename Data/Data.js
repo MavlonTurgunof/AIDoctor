@@ -909,13 +909,9 @@ export const ListClinics = [
     reviews: 50,
     address: "Avliyo-Ota street, 1-2",
     landmark: "Mirabad Market (Hospital), back side.",
-    workingHours: {
-      "mon-fri": "08:00-18:00",
-      sat: "08:00-16:00",
-      sun: "Not specified",
-    },
+    workingHours: "mon-fri: 08:00-18:00",
     phone: "+998901234567",
-    image: "./img/ClinicLogo.webp",
+    image: "/ClinicLogo.webp",
   },
   {
     id: 2,
@@ -926,13 +922,9 @@ export const ListClinics = [
     reviews: 32,
     address: "Buyuk Ipak Yo’li, 35",
     landmark: "Opposite Mega Planet",
-    workingHours: {
-      "mon-fri": "09:00-19:00",
-      sat: "09:00-15:00",
-      sun: "Closed",
-    },
+    workingHours: "mon-fri: 08:00-18:00",
     phone: "+998907654321",
-    image: "./img/ClinicLogo.webp",
+    image: "/ClinicLogo.webp",
   },
   {
     id: 3,
@@ -943,13 +935,9 @@ export const ListClinics = [
     reviews: 89,
     address: "Chilanzar 21, Tashkent",
     landmark: "Next to Hamkorbank",
-    workingHours: {
-      "mon-fri": "08:00-17:00",
-      sat: "08:00-13:00",
-      sun: "Closed",
-    },
+    workingHours: "mon-fri: 08:00-18:00",
     phone: "+998933216789",
-    image: "./img/ClinicLogo.webp",
+    image: "/ClinicLogo.webp",
   },
   {
     id: 4,
@@ -960,13 +948,9 @@ export const ListClinics = [
     reviews: 64,
     address: "Afrosiyob Street, 12",
     landmark: "Behind NEXT Shopping Mall",
-    workingHours: {
-      "mon-fri": "08:30-18:30",
-      sat: "09:00-14:00",
-      sun: "Closed",
-    },
+    workingHours: "mon-fri: 08:00-18:00",
     phone: "+998998887766",
-    image: "./img/ClinicLogo.webp",
+    image: "/ClinicLogo.webp",
   },
   {
     id: 5,
@@ -977,12 +961,8 @@ export const ListClinics = [
     reviews: 45,
     address: "Yunusabad-19, Tashkent",
     landmark: "Near Darhan bridge",
-    workingHours: {
-      "mon-fri": "08:00-20:00",
-      sat: "08:00-17:00",
-      sun: "10:00-14:00",
-    },
+    workingHours: "mon-fri: 08:00-18:00",
     phone: "+998935551212",
-    image: "./img/ClinicLogo.webp",
+    image: "/ClinicLogo.webp",
   },
 ];

@@ -5,6 +5,7 @@ import Applayout from "../../pages/Applayout";
 import Doctors from "../../pages/Doctors";
 import Clinics from "../../pages/Clinics";
 import ListDocs from "../container/Doctor/ListDocs";
+import ClinicsList from "../container/Clinics/ClinicsList";
 
 function Index() {
   return (
@@ -14,6 +15,7 @@ function Index() {
           <Route index element={<Home />} />
           <Route path="/doctors" element={<Doctors />} />
           <Route path="/doctors/listDocs" element={<ListDocs />} />
+          <Route path="/doctors/listClinics" element={<ClinicsList />} />
           <Route path="/clinics" element={<Clinics />} />
         </Route>
       </Routes>
