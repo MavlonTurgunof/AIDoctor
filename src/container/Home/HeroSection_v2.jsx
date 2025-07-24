@@ -73,19 +73,19 @@ function HeroSection() {
   console.log(result);
 
   return (
-    <div className="bg-[url(/banner.svg)] w-full h-auto bg-cover bg-no-repeat">
+    <div className="bg-[url(/banner.svg)] w-full h-screen bg-cover bg-no-repeat">
       <Container>
-        <div className="flex flex-col items-center">
-          <div className="pt-[150px] text-white text-center">
-            <h1 className="text-[74px] font-bold ">
+        <div className="flex flex-row items-center gap-4  pt-[100px]">
+          <div className=" text-white">
+            <h1 className="text-[60px] font-bold ">
               Find the Right Care-Guided by Smart Technology
             </h1>
-            <p className="text-[20px] font-normal">
+            <p className="text-[16px] font-normal w-[80%]">
               Your AI health assistant connects you with the right doctor or
               clinic — instantly, reliably, and personally.
             </p>
           </div>
-          <div className="relative h-[450px] w-[50%] bg-center bg-cover bg-no-repeat flex flex-col justify-between gap-3">
+          <div className="relative h-[550px] w-full bg-center bg-cover bg-no-repeat flex flex-col justify-between gap-3">
             {/* <Lottie
               animationData={robotAnimation}
               loop
@@ -103,14 +103,14 @@ function HeroSection() {
               }`}
             />
 
-            <Lottie
+            {/* <Lottie
               animationData={chattingAnimation}
               loop
               autoplay
               className={`absolute inset-0 w-[80%] h-[80%] top-5 z-0   md:left-130 transition-all duration-1500 ${
                 messages.length !== 0 ? "" : "hidden"
               }`}
-            />
+            /> */}
 
             <div
               className={`w-full bg-[#0E91A5]/40 backdrop-blur-md h-[100%] mt-10 border-2 border-[#0E91A5] transition-all duration-300 overflow-auto ${
@@ -238,7 +238,7 @@ function HeroSection() {
                 ))}
               </div>
             </div>
-            <div className="flex justify-center gap-4 items-center  bg-[#0E91A5]/20 backdrop-blur-md px-2 pt-2 pb-8 rounded-t-2xl">
+            <div className="flex justify-center gap-4 items-center  bg-[#0E91A5]/20 backdrop-blur-md px-2 pt-2 pb-8 rounded-2xl">
               <input
                 type="text"
                 placeholder="Try it out!"

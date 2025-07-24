@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiHeart, BiStar } from "react-icons/bi";
 
 function ClinicCard({ data }) {
+  const [isPhone, setIsPhone] = useState(false);
+
   return (
     <div className="bg-white flex flex-row justify-start gap-10 mb-4 p-5 py-8 rounded-[10px] shadow-xl">
       <div className="w-fit relative">
@@ -39,11 +41,11 @@ function ClinicCard({ data }) {
           </div>
         </div>
         <div className="flex gap-10 mt-2">
-          <button className="bg-[#0d91a6] text-white py-2 px-3 rounded-full ">
-            Call +998...
-          </button>
-          <button className="border-[2px] border-[#0d91a6] py-2 px-3 rounded-full">
-            Message
+          <button
+            onClick={() => setIsPhone(true)}
+            className="bg-[#0d91a6] text-white py-2 px-3 rounded-full "
+          >
+            {isPhone ? <h1>{data.phone}</h1> : <h1>Call +998...</h1>}
           </button>
         </div>
       </div>
