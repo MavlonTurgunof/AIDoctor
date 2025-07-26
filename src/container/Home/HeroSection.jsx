@@ -85,7 +85,7 @@ function HeroSection() {
               clinic — instantly, reliably, and personally.
             </p>
           </div>
-          <div className="relative h-[450px] w-[50%] bg-center bg-cover bg-no-repeat flex flex-col justify-between gap-3">
+          <div className="relative h-[470px] w-[50%] bg-center bg-cover bg-no-repeat flex flex-col justify-between gap-3">
             {/* <Lottie
               animationData={robotAnimation}
               loop
