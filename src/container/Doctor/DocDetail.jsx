@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Container from "../../Components/Container";
+
 import { BsPhone, BsTelegram } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { PiPlus } from "react-icons/pi";
@@ -9,6 +9,7 @@ import request from "../../components/config/Index";
 import { Modal } from "./BookingModal";
 import Loading from "../../assets/Animation/loading.json";
 import Lottie from "lottie-react";
+import Container from "../../components/Container";
 
 function DocDetail() {
   const [openMenu, setOpenMenu] = useState(false);
